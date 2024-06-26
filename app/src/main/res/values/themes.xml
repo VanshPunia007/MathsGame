@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MathGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/navy</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorOnPrimary">@color/ice_blue</item>
+    </style>
+    <style name="Theme.MathGame" parent="Base.Theme.MathGame" />
+
+    <style name="Base.Theme.AddActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/navy</item>
+    </style>
+    <style name="Theme.AddActivity" parent="Base.Theme.AddActivity" />
+
+    <style name="Base.Theme.SubtractActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/navy</item>
+    </style>
+    <style name="Theme.SubtractActivity" parent="Base.Theme.SubtractActivity" />
+
+    <style name="Base.Theme.MultiplicationActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/navy</item>
+    </style>
+
+    <style name="Theme.MultiplicationActivity" parent="Base.Theme.AddActivity" />
+
+    <style name="Base.Theme.ResultActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ice_blue</item>
+        <item name="colorPrimaryVariant">@color/ice_blue</item>
+        <item name="colorOnPrimary">@color/navy</item>
+    </style>
+    <style name="Theme.ResultActivity" parent="Base.Theme.ResultActivity" />
+</resources>
